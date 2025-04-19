@@ -1,0 +1,6 @@
+.venv
+_secrets.py
+tokens.db
+tokens.db-shm
+tokens.db-wal
+__pycache__
