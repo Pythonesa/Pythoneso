@@ -28,7 +28,7 @@ class RouletteComponent(commands.Component):
             f"{username}, ni vos te la creés... pero sí, VIP. 😲",
             f"{username}, el universo glitchó y te dio VIP. Bug con estilo. 🐞💅",
             f"{username}, tu cuenta fue bendecida con el poder del VIP. 🪄",
-            f"{username}, lo imposible pasó. Sos VIP. Viví como reina. 👑"
+            f"{username}, lo imposible pasó. Sos VIP. Viví como rey/reina. 👑"
         ]
 
         good_messages = [
@@ -46,10 +46,10 @@ class RouletteComponent(commands.Component):
 
         bad_messages = [
             f"{username}, la suerte no estuvo de tu lado. Timeout de {{duration}}s. 💀",
-            f"{username}, fuiste elegida por los dioses del ban. {{duration}}s en el rincón. 👋",
+            f"{username}, fuiste elegido/a por los dioses del ban. {{duration}}s en el rincón. 👋",
             f"{username}, ruleta maldita... te ganaste {{duration}}s de silencio. 😈",
             f"{username}, castigo divino: timeout de {{duration}}s. 🔥",
-            f"{username}, fue un gusto tenerte activa. Ahora, a callar. {{duration}}s. 😶",
+            f"{username}, fue un gusto tenerte. Ahora, a callar. {{duration}}s. 😶",
             f"{username}, los bugs te condenaron. Timeout: {{duration}}s. 🐞🧨",
             f"{username}, caíste en la casilla de la muerte. {{duration}}s. ☠️",
             f"{username}, ni modo, te tocó. Timeout de {{duration}}s. 🎯",
