@@ -11,6 +11,7 @@ from _secrets import CLIENT_ID, CLIENT_SECRET, BOT_ID, OWNER_ID
 from components.SocialsComponent import SocialsComponent
 from components.RouletteComponent import RouletteComponent
 from components.CookieComponent import CookieComponent
+from components.TrophyComponent import TrophyComponent
 
 
 LOGGER: logging.Logger = logging.getLogger("Bot")
@@ -32,6 +33,7 @@ class Bot(commands.Bot):
         await self.add_component(SocialsComponent())
         await self.add_component(RouletteComponent(self))
         await self.add_component(CookieComponent(self))
+        await self.add_component(TrophyComponent(self))
 
         # Subscribe to read chat (event_message) from our channel as the bot...
         # This creates and opens a websocket to Twitch EventSub...
