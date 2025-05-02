@@ -9,7 +9,7 @@ class SocialsComponent(commands.Component):
 
         !redes
         """
-        await ctx.send("https://discord.gg/pfYbDsZmSh, https://www.youtube.com/@pythonesa, https://blognesa.netlify.app/")
+        await ctx.send("https://discord.gg/BcSA5n3wcw, https://www.youtube.com/@pythonesa, https://blognesa.netlify.app/")
 
     @redes.command(name="discord", aliases=["dc"])
     async def socials_discord(self, ctx: commands.Context) -> None:
@@ -18,7 +18,7 @@ class SocialsComponent(commands.Component):
         !redes discord
         !redes dc
         """
-        await ctx.send("https://discord.gg/pfYbDsZmSh")
+        await ctx.send("https://discord.gg/BcSA5n3wcw")
 
     @redes.command(name="youtube", aliases=["yt"])
     async def socials_youtube(self, ctx: commands.Context) -> None:
