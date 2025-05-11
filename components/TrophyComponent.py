@@ -9,7 +9,7 @@ class TrophyComponent(commands.Component):
         self.trophy_sequence = [
             "Trofeo del Código Antiguo",
             "Cristal del Conocimiento",
-            "Fragmento de la Matriz"
+            "Fragmento de la Matrix"
         ]
 
     @commands.command(name="trofeo")
@@ -56,12 +56,12 @@ class TrophyComponent(commands.Component):
                 f"No fue la más rápida, pero sí la más clever. {username}, Cristal del Conocimiento para vos.",
                 f"{username} no ganó, pero es más inteligente que la media. Cristal del Conocimiento incoming."
             ],
-            "Fragmento de la Matriz": [
-                f"{username} se metió al podio como un push sin tests. Fragmento de la Matriz desbloqueado. 🧑‍💻🔮",
-                f"{username} se desliza en tercer lugar. Fragmento de la Matriz es tuyo.",
-                f"{username} agarró el cable justo a tiempo. Fragmento de la Matriz concedido.",
-                f"{username} llegó por milisegundos. Fragmento de la Matriz en tus manos.",
-                f"{username}, ¿bronce? No, Fragmento de la Matriz. Estilo ante todo."
+            "Fragmento de la Matrix": [
+                f"{username} se metió al podio como un push sin tests. Fragmento de la Matrix desbloqueado. 🧑‍💻🔮",
+                f"{username} se desliza en tercer lugar. Fragmento de la Matrix es tuyo.",
+                f"{username} agarró el cable justo a tiempo. Fragmento de la Matrix concedido.",
+                f"{username} llegó por milisegundos. Fragmento de la Matrix en tus manos.",
+                f"{username}, ¿bronce? No, Fragmento de la Matrix. Estilo ante todo."
             ]
         }
 
